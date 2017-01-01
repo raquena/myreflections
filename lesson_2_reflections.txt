@@ -1,0 +1,17 @@
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+	- it's possible to make several modifications that get stored over the staging area, but they're not commited until you don't really have relevant changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	- when you need to make different versions of the same program, with slightly different functionality, but you want to keep botch.
+
+How do the diagrams help you visualize the branch structure?
+
+	- they help you to understand the reachability of each commit, and help you to check if there's any commit that can get lost.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	- it puts the modifications of both branches together, in the diagram, makes the next branch to have two parent branches.
